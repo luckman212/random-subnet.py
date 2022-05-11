@@ -1,6 +1,12 @@
 # random-subnet.py
 
-Generate random private (RFC1918) subnets in CIDR notation.
+Generate random private (RFC1918) subnets in CIDR notation. You can specify an optional mask (defaults to 24).
+
+### Usage
+
+```shell
+$ random-subnet.py [mask]
+```
 
 ### Example
 
